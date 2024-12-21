@@ -14,7 +14,7 @@ const Hero = () => {
           srcSet="/images/hero-img.jpg, /images/hero-img@2x.jpg 2x, /images/hero-img@3x.jpg 3x"
         />
         <HeroImage
-          alt="striped gray cat staring at the viewer"
+          alt="Example photo, striped gray cat staring at the viewer"
           src="/images/hero-img.jpg"
         />
       </picture>
