@@ -52,22 +52,19 @@ const Image = styled.img`
 `;
 
 const Tags = styled.ul`
-  display: block;
-  max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 4px 0;
 `;
 
 const Tag = styled.li`
-  display: inline-block;
+  display: inline;
   padding: 4px 8px;
   background: var(--color-gray-300);
   font-size: 0.875rem;
   font-weight: 475;
   color: var(--color-gray-800);
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
 
   &:not(:first-of-type) {
     margin-left: 8px;
